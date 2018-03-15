@@ -1,6 +1,10 @@
 # json-zeroer - Zero-friendly JSON patch for Go
 
-Unsafe(!) implementation of Go issue [#11939](https://github.com/golang/go/issues/11939) that uses memory hack known as
+[![Build Status](https://travis-ci.org/lokhman/json-zeroer.svg?branch=master)](https://travis-ci.org/lokhman/json-zeroer)
+[![codecov](https://codecov.io/gh/lokhman/json-zeroer/branch/master/graph/badge.svg)](https://codecov.io/gh/lokhman/json-zeroer)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+Implementation of Go issue [#11939](https://github.com/golang/go/issues/11939) that uses memory hack known as
 "monkey patching" presented by [Bouke van der Bijl](https://github.com/bouk/monkey).
 
 ## Install
