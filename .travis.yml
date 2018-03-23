@@ -4,6 +4,17 @@ go:
   - 1.7
   - 1.8
   - 1.9
+  - master
+
+install: true
+
+matrix:
+  allow_failures:
+    - go: master
+  fast_finish: true
+
+notifications:
+  email: false
 
 script:
   - go test -race -coverprofile=coverage.txt -covermode=atomic
